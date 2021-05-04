@@ -228,7 +228,7 @@ canvas {
 
 #maintainance-container {
   position: absolute;
-  top: 25%;
+  top: 20%;
   margin: 0 25%;
   /* position: absolute;
   top: 50px;
@@ -258,18 +258,20 @@ canvas {
 }
 
 #maintenance-text {
-  font-size: 44.5px;
+  font-size: 3.8vw;
   font-style: italic;
+  padding-bottom: 1vw;
+  border-bottom: 2px solid #ffb800;
 }
 
 #maintenance-section-2 {
   /* background-color: rgb(153, 252, 255); */
   /* height: 300px; */
-  margin-top: 100px;
+  margin-top: 8vw;
 }
 
 #maintenance-flash {
-  font-size: 30px;
+  font-size: 2.5vw;
   display: flex;
   justify-content: center;
 }
@@ -278,17 +280,16 @@ canvas {
   justify-content: center;
 }
 #maintenance-checkout-text {
-  font-size: 16.5px;
+  font-size: 1.3vw;
   display: flex;
 }
 #link-icon {
-  height: 12px;
-  width: 12px;
-  padding: 3px;
+  height: 1.1vw;
+  width: 1.1vw;
+  padding: 0.3vw;
 }
 #maintenance-checkout-container {
   width: 50%;
-  height: 150px;
   display: flex;
   margin: 0 auto;
   /* background-color: rgb(44, 52, 97); */
@@ -296,56 +297,29 @@ canvas {
 
 #data-viz {
   flex: 1;
-  margin: 7%;
+  margin: 7% 7% 7% 3%;
   /* background-color: rgb(177, 131, 62); */
   display: flex;
+  text-decoration: none;
+  color: black;
 }
 
 #mode {
   flex: 1;
-  margin: 7%;
+  margin: 7% 3% 7% 7%;
   /* background-color: rgb(177, 131, 62); */
   display: flex;
+  text-decoration: none;
+  color: black;
 }
 
 #label {
-  font-size: 14px;
+  font-size: 1.7vw;
+  flex: 1;
 }
 
 #icon {
-  height: 34px;
-  width: 34px;
-  margin-left: 5px;
-}
-
-#facts-logo {
-  height: 70px;
-  width: 70px;
-  margin: 0 auto;
-  display: flex;
-}
-
-#facts-holder {
-  width: auto;
-  height: 120px;
-  display: flex;
-  margin: 20px 10px;
-}
-
-#facts-icon {
-  flex: 1;
-  /* background-color: rgb(177, 131, 62); */
-}
-#facts-icon-logo {
-  height: 50px;
-  width: 50px;
-  margin: 25px auto;
-  display: flex;
-}
-
-#facts-text {
-  flex: 4;
-  /* background-color: rgb(85, 63, 31); */
-  border-bottom: 1px solid #ffb800;
-  margin: 25px auto;
+  height: 3.5vw;
+  width: 3.5vw;
+  margin: 0.3vw 0 0 1.2vw;
 }
